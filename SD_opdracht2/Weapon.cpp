@@ -1,10 +1,13 @@
 #include <iostream>
 #include "Weapon.h"
 
-Weapon::Weapon(int damage = 0, int durability = 1)
+Weapon::Weapon(std::string name, int damage, int durability, int coinValue, int amount)
 {
-    this->_damage = damage;
-    this->_durability = durability;
+	this->_name = name;
+	this->_coinValue = coinValue;
+	this->_amount = amount;
+	this->_damage = damage;
+	this->_durability = durability;
 
-    std::cout << "new Player created\n";
+	this->type = WEAPON;
 }

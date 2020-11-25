@@ -1,11 +1,11 @@
 #pragma once
 #include "Item.h"
-class Weapon :
-	public Item
+
+class Weapon : public Item
 {
 	int _damage;
 	int _durability;
 public:
-	Weapon(int damage = 0, int durability = 1);
+	Weapon(std::string name, int damage, int durability, int coinValue = 0, int amount = 1);
 };
 

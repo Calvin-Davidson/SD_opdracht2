@@ -7,18 +7,23 @@ class Player
 {
 private:
 	std::string _name;
-	int _coinInventory;
+	int balance;
 
 	std::vector < Item* > _inventory;
 	std::vector < Item* > _equippedItems;
-public:
 public:
 	Player(std::string name, int coinInventory = 0);
 	~Player();
 
 	std::string GetName();
-	int GetCoinInventory();
+	int GetBalance();
 
-	void AddCoinValueToCoinInventory(int value = 0);
+	void AddMoney(int value = 0);
+	void RemoveMoney(int value);
+	void SetMoney(int value);
+	bool hasMoney(int value);
+
+	std::vector < Item* > getInventory();
+	std::vector < Item* > getEquippedItems();
 };
 

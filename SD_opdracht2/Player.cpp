@@ -1,11 +1,11 @@
 #include <iostream>
+#include <windows.h>
 #include "Player.h"
 
-#include <windows.h>
-Player::Player(std::string name, int coinInventory = 0)
+Player::Player(std::string name, int startBalance)
 {
     this->_name = name;
-    this->_coinInventory = coinInventory;
+    this->SetMoney(startBalance);
 
     std::cout << "new Player created\n";
 }
@@ -27,12 +27,39 @@ std::string Player::GetName()
     return this->_name;
 }
 
-int Player::GetCoinInventory()
+int Player::GetBalance()
 {
-    return this-> _coinInventory;
+    return this->balance;;
 }
 
-void Player::AddCoinValueToCoinInventory(int value = 0)
+void Player::AddMoney(int value)
 {
-    this->_coinInventory += value;
+    this->balance += value;
 }
+
+void Player::RemoveMoney(int value)
+{
+    this->balance -= value;
+}
+
+void Player::SetMoney(int value)
+{
+    this->balance = value;
+}
+
+bool Player::hasMoney(int value)
+{
+    return balance >= value;
+}
+
+std::vector<Item*> Player::getInventory()
+{
+    return std::vector<Item*>();
+}
+
+std::vector<Item*> Player::getEquippedItems()
+{
+    return std::vector<Item*>();
+}
+
+#pragma endregion

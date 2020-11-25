@@ -3,8 +3,7 @@
 
 enum armorType { helmet, chestplate, pants, boots };
 
-class Armor :
-	public Item
+class Armor : Item
 {
 	int _armorValue;
 	int _durability;

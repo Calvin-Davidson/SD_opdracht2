@@ -1,0 +1,10 @@
+﻿  Player.cpp
+C:\Users\Calvin\Desktop\school\Periode_02\CPP\SD_opdracht2\SD_opdracht2\Player.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_02\CPP\SD_opdracht2\SD_opdracht2\Player.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_02\CPP\SD_opdracht2\SD_opdracht2\Item.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_02\CPP\SD_opdracht2\SD_opdracht2\Item.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Weapon.cpp
+C:\Users\Calvin\Desktop\school\Periode_02\CPP\SD_opdracht2\SD_opdracht2\Item.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_02\CPP\SD_opdracht2\SD_opdracht2\Item.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  SD_opdracht2.vcxproj -> C:\Users\Calvin\Desktop\school\Periode_02\CPP\SD_opdracht2\Debug\SD_opdracht2.exe
