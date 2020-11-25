@@ -1,12 +1,13 @@
 #pragma once
 #include "Item.h"
+#include "ArmorType.h"
 
-enum armorType { helmet, chestplate, pants, boots };
-
-class Armor : Item
+class Armor : public Item
 {
 	int _armorValue;
 	int _durability;
-	armorType _armorType;
+	ArmorType _armorType;
+public:
+	Armor(std::string name, int armorValue, int durability, ArmorType armorType, int coinValue = 0, int amount = 1);
 };
 

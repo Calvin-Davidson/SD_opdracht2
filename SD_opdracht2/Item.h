@@ -7,12 +7,12 @@
 class Item
 {
 protected:
-	ItemType type;
+	ItemType _itemType;
 	std::string _name;
 	int _amount;
 	int _coinValue;
 public:
-	//Item(std::string name, int coinValue = 0, int amount = 1);
+	Item(std::string name, int coinValue = 0, int amount = 1);
 	Item();
 	~Item();
 

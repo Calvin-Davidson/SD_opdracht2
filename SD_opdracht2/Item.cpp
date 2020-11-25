@@ -2,14 +2,14 @@
 #include <iostream>
 
 #include <windows.h>
-//Item::Item(std::string name, int coinValue = 0, int amount = 0)
-//{
-//    this->_name = name;
-//    this->_coinValue = coinValue;
-//    this->_amount = amount;
-//
-//    std::cout << "new Item created\n";
-//}
+Item::Item(std::string name, int coinValue, int amount)
+{
+    this->_name = name;
+    this->_coinValue = coinValue;
+    this->_amount = amount;
+
+    std::cout << "new Item created\n";
+}
 
 Item::Item()
 {
@@ -43,10 +43,5 @@ int Item::GetCoinValue()
 
 ItemType Item::GetItemType()
 {
-    return this->type;
-}
-
-ItemType Item::getItemType()
-{
-    return this->type;
+    return this->_itemType;
 }

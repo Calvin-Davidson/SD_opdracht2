@@ -1,0 +1,25 @@
+﻿  Armor.cpp
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Player.cpp
+D:\Github\SD_opdracht2\SD_opdracht2\Player.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Player.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Potion.cpp
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Weapon.cpp
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Github\SD_opdracht2\SD_opdracht2\Item.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  LINK : D:\Github\SD_opdracht2\x64\Debug\SD_opdracht2.exe not found or not built by the last incremental link; performing full link
+  SD_opdracht2.vcxproj -> D:\Github\SD_opdracht2\x64\Debug\SD_opdracht2.exe
