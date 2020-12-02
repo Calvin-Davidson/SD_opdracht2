@@ -30,7 +30,15 @@ public:
 	void SetHealth(int value);
 	bool IsAlive();
 
-	std::vector < Item* > getInventory();
-	std::vector < Item* > getEquippedItems();
+	void GiveItem(Item* item);
+	void RemoveItem(Item* item);
+
+	void Equip(Item* item);
+	void DeEquip(Item* item);
+
+	void printEquippedItems();
+
+	std::vector < Item* >& getInventory();
+	std::vector < Item* >& getEquippedItems();
 };
 

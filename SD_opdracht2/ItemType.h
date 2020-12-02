@@ -1,8 +1,8 @@
 #pragma once
 
 enum ItemType {
-	ARMOR,
-	POTION,
-	ITEM,
-	WEAPON
+	ARMOR = 4,
+	POTION = 3,
+	ITEM = 5,
+	WEAPON = 2
 };
